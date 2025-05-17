@@ -1,0 +1,10 @@
+- Metasploit Database
+	- init postgresql
+	- msfdb init
+	- msfconsole > db_status
+	- workspace -a name: create new workspace
+	- when launched with the database, help shows db commands
+	- db_nmap: results of nmap saved to db
+		- retrieve them using hosts and services commands (-h if needed)
+		- hosts -R: define hosts stored in db (after scan)
+		- services -S service_name: search for services in current environment

@@ -1,0 +1,13 @@
+- stored in `/etc/shadow`, normally readable only by root
+- used to be stored in /etc/passwd, which was readable by everyone
+- 4 components per line, saved in format `$prefix$options$salt$hash`
+	- prefix identifies the hashing algorithm
+		- `$y$`: yescript, scalable hashing scheme, default and recommended in new systems
+		- `$gy$`: gost-yescript: GOST R 34.11-2012 hash function + yescript method
+		- `$7$`: scrypt: password-based key derivation function
+		- `$2b$`, `$2y$`, `$2a$`, `$2x$`: bycript hash, based on Blowfish block cipher, developped by OpenBSD
+		- `$6$`: sha512crypt, hash-based on SHA-2 with 512 bit output, developed for GNU, common for Linux
+		- `$md5`: SunMD5, based on MD5, originally developped for Solaris
+		- `$1$`: md5crypt: based on MD5 algorithm, originally developped for FreeBSD
+- 5th component: [[GECOS]]
+- Windows passwords: 

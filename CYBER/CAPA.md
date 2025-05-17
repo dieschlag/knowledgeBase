@@ -1,0 +1,19 @@
+- CAPA: Common Analysis Platform for Artifcats
+- powershell tool
+- `capa file_path`: returns info on given file
+- analysis takes several minutes
+- returns  [[MITRE ATT&CK]]
+- returns MAEC of file
+- returns MBC
+- Capability and Namespaces:
+	- **Capability(Rule Name)**::**TLN(Top-Level Namespace)**/**Namespace**
+	- Namespaces: group items with same purposes
+		- ex: anti-analysis: set of rules exhibited by malware to evade analysis
+	- Capability: gives an id of what the executable could do:
+		- ex: reference anti-VM strings
+		- item under capability = same name as YML file under rules
+			- ex: schedule task via schtasks => schedule-task-via-schtasks.yml
+	- Nursery: placeholder for rules not finished yet
+- Verbose: -v, -vv
+- Format: -j: output as a json
+	- after saving in json format, can be opened in CAPA Web explorer (allows better navigation, with search box)

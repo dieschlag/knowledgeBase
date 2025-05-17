@@ -1,0 +1,50 @@
+- Get-Command: displays available commands
+	- -CommandType "name": filter output 
+- Get-Help command: get info on command
+	- -exemples: show simple use of command
+- Get-Aliases: show all existing aliases
+- Find-Modules: find new cmdlets
+	- -Name: filter according to name, use patterns with \* for better search
+- Install-Module: install the cmdlet
+- Get-ChildItem: displays folder content ~ls
+	- -Path "filepath": specify specific path
+- Set-Location: travel in folders ~ cd
+	- use -Path
+- New-Item: create a new item
+	- -Path
+	- -Type: 
+		- "Directory"
+		- "File"
+- Remove-Item: ~ rmdir/del
+- Copy-Item: ~ copy
+- Move-Item: ~ move
+- Get-Content: ~ type: displays file content
+- Select-String: searches for text patterns in files ~ grep
+- Get-ComputerInfo: ~systeminfo
+- Get-LocalUser: lists all local users on system
+- Get-NetIPConfiguration: info on network interfaces (IP, DNS, gateway)
+- Get-NetIPAddress: details on all Ip configured on the system, even not active
+- Get-Process: all currently running processes + CPU/memory usage
+- Get-Service: status of services on machine (running, stopped, paused)
+- Get-NetTCPConnection: displays current TCP connections, in both local and remote
+- Get-FileHash: generates file hashes
+	- -Path
+- Invoke-Command: execute scripts
+	- -FilePath
+	- -ComputerName: to rune on remote computer
+	- -Credential domain/user: to execute it in specific context (specific domain and by specific user)
+	- -ScriptBlock {commands}: specify commands directly between the {}
+	- 
+
+## With piping
+
+- Sort-Object property: sort objects according to given property
+	- Length
+	- Name
+	- -First \<number>: displays number-first elements 
+	- -Descending: applied after property
+- Where-Object: filter output
+	- -Property "Property": according to file property
+		- "Extension"
+		- "Name"
+	- -eq "smthg": equals to something

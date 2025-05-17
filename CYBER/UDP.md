@@ -1,0 +1,13 @@
+- UDP: User Datagram Protocol
+- no reliability checking, no checking that packet arrived
+- much faster than [[TCP]]
+- leaves the application layer to decide if there is control over how fast packets are sent
+- **stateless**: doesn't require connection to send data 
+- Headers: 
+	- Time To Live: see for TCP
+	- Source Address
+	- Destination Address
+	- Source Port
+	- Destination Port
+	- Data
+	- 

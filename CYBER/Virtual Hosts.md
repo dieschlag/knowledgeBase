@@ -1,0 +1,8 @@
+- Text-based configuration files
+- Allows to have several websites with different domains on same web server
+- Web server checks hostname being requested against virtual hosts
+	- match: specific website provided
+	- no match: default website provided
+- Can have root directory mapped to different locations on hard drive
+- No limit on the number of websites a web server can host
+- 

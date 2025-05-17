@@ -1,0 +1,4 @@
+- Cryptographic Failures: Send data without encryption
+	- HTTP instead of HTTPS
+	- relying on weak cryptography algorithms
+	- default or weak keys for cryptographic functions

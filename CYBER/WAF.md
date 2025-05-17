@@ -1,0 +1,4 @@
+- WAF: Web Application Firewall
+- Prevents hacking or DoS
+- works like a firewall
+- 

@@ -1,0 +1,9 @@
+- IDS: intrusion Detection System, ~ security cameras, does not prevent intrusion but detects it
+- Types:
+	- Host Intrusion Detection System (HIDS): installed on hosts, detailed visibility on host activity, resource-intensive and management for each host
+	- Network Intrusion Detection System: monitor traffic of all hosts
+- Detection Modes:
+	- Signature-Based IDS: attack has pattern = signatures, stored in DB to detect same attacks, but unable to detect zero-day attacks because no prior signatures
+	- Anomaly-Based IDS: learns normal behavior of network, detection if deviation, can detect zero-days attacks, but may generate lot of false positives
+	- Hybrid IDS: both approach
+- Example of hybrid IDS: [[Snort]]

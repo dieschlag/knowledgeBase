@@ -1,0 +1,10 @@
+- FalreVM: Forensics, Logic Analysis, and Reverse Engineering
+- A lot of tools
+	- Pocmon: track system file activity
+	- Procexp: in depth insight on processes running on computer and linked user accounts
+	- HxD: hex editor for editing files
+	- CFF Explorer: generate file hashes for integity verification
+	- [[Wireshark]]
+	- PEStudio: study executable file properties without running it, gives entropy value to file
+	- FLOSS: FLARE Obfuscated String Solver: extracts and de-obfuscates all strings from malware
+- 

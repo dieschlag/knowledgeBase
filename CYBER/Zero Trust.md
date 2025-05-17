@@ -1,0 +1,4 @@
+- Puts trust as a vulnerability
+- "never trust, always verify"
+- entity considered adversarial until proven otherwise
+- implemented using microsegmentation, design in which network can be a single host, communication between segments requires authentication, access control list checks

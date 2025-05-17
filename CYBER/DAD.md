@@ -1,0 +1,5 @@
+- Triad of attack:
+	- Dislosure: opposite of confidentiality 
+	- Alteration: opposite of integrity
+	- Desctruction/Denial: opposite of Availability
+- 

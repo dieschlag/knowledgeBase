@@ -1,0 +1,2 @@
+- allows to pass a `ref` to the actual DOM component inside a React component
+- 

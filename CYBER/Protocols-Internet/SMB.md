@@ -1,0 +1,1 @@
+- Server Message Block: to have shared access between files and printers

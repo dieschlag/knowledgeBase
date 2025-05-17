@@ -1,0 +1,10 @@
+- IDOR: Insecure Direct Object Reference
+- check for code encoding by trying to decode data (espcially try with base 64, commonly used). Then send back request with encoded data (like `{id: 10}`), to check if have access to ressource
+	- can try using https://crackstation.net/ to decode
+- can do the same with hashes
+	- can use https://crackstation.net/ to try decrypt it
+	- common algo: md5
+- If not simple IDs used, can create two accounts and switch the IDs to check if IDOR is possible
+- can also check for unreferenced parameters
+	- ex: /user/details might accept used_id parameter, then can make request /user/details?user_id=123, to access user info
+- 

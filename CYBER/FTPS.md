@@ -1,0 +1,5 @@
+- FTPS: File Transfer Protocol Secure
+- secured using TLS
+- default port: 990
+- requires certificate setup, tricky with strict firewalls
+- [[SFTP]] more easy to setup, only requires [[OpenSSH]]

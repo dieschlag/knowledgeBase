@@ -1,0 +1,11 @@
+- used to extract artifacts from memory images
+- usage: `vol3 -f <memory_file_name>
+- Plugins:
+	- windows.pstree.PsTree: list processes in a tree
+	- windows.pslist.PsList: list all currently active processes
+	- windows.cmdline.CmdLine: list process command line arguments
+	- windows.filescan.FileScan: scan for file objects in memory
+	- windows.dlllist.DllList: list loaded modules in memory
+	- windows.malfind.Malfind: lists process memory ranges that could contain injected code
+	- windows.psscan.PsScan: scan for processes present in specific windows image
+- 

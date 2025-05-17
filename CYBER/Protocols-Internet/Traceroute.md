@@ -1,0 +1,4 @@
+- Traceroute:
+	- traceroute \<destination>
+	- see all steps between source and target
+	- on windows works on internet level

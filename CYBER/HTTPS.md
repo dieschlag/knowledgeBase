@@ -1,0 +1,6 @@
+- HTTP over TLS
+- Establish TCP connection
+- Establish TLS connection
+- Communicate using HTTP
+- exchange traffic is encrypted
+- 

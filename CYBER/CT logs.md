@@ -1,0 +1,4 @@
+- when SSL/TLS certificate created, added to Certificate Transparency (CT) logs
+- goal: stop malicious or accidentally made certificates from being used
+- can use this service to discover subdomains
+- Searchable database of certificates: https://crt.sh/

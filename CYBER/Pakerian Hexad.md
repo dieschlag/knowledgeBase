@@ -1,0 +1,7 @@
+- Set of 6 security elements, proposed by Donn Parker in 1998:
+	- Availability
+	- Utility: if has access to information but lacks correct tool to access, cannot use info
+	- Integrity
+	- Authenticity
+	- Confidentiality
+	- Possession: protects information from unauthorized taking

@@ -1,0 +1,10 @@
+- system environment variable for `/Windows` is `%windir%`
+- \Windows\System32 folder: files critical for OS
+- Admin: do everything
+- Standard User: cannot install programs, only modify folders
+- change user type in Administrator & Standard User settings
+- C:\Users: location for all Users
+- User Account Control: by default user does not run with admin rights, prompts to the user for confirmation before installing
+- [[Windows Commands]]
+- Windows passwords: use NTLM, variant of MD4, identical to MD4/MD5 hashes
+	- stored in the SAM (Security Acconts Manager)

@@ -1,0 +1,4 @@
+- class variance authority
+- create variants for css with typescript
+- used to add new props to existing elements
+- see components/ui/button.tsx

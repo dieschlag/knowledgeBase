@@ -1,0 +1,44 @@
+- DNS: Domain Name System
+- request to website
+- computer checks local "Hosts File" to see if domain-ip match
+- computer checks local DNS cache
+- send request to recursive DNS (known to the router/computer)
+- server checks cache
+- not in cache => request to root name server
+	- before 13 root name DNS servers
+	- now more but still accessible via same IPs
+	- root name servers keep track of TLD (Top Level Domains)
+	- TLD: redirects request to appropriate authoritive server
+		- TLD keeps track of Authoritative name servers
+		- Split into extensions: 
+			- ex: domain.com => redirect to TLD handling .com domains
+		- Two types:
+			- gLTD: Generic Top Level Domain
+				- .com (commercial), .org (organisation)
+			- ccTLD: Country Code Top Level Domain
+				- .ca: Canada, etc.
+	- Second-Level-Domain
+			- max 63 caracters
+			- can only use a-z + 0-9 + hypens (except begin/end)
+	- Subdomain:
+		- left side of SLD with .
+		- same restrictions as SLD
+		- can use multiple subdomains
+		- max total length: 253
+		- no limit on number of subdomains (only length)
+
+- Record Types:
+	- A: IPv4
+	- AAAA: IPv6
+	- CNAME: resolve to another domain name (will require another DNS request)
+	- MX: address of servers handling email, priority flag to tell in which order to try the servers, if needs to send to backup if main is down
+	- TXT: text-based data
+		- can store list of servers wth authority to send email on behalf domain
+		- ...
+- dig: allows to query recursive DNS
+```
+dig <domain> @<dns-server-ip>
+```
+- TTL: Time to live
+	- displayed in seconds in dig
+- 

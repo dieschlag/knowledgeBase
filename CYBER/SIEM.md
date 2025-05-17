@@ -1,0 +1,18 @@
+- SIEM: Security Information and Event Management
+- collects logs from devices (log sources)
+	- host-centric: access a file, attempt to authenticate, etc.
+	- network-centric: ssh connection, web traffic
+- detection rules defined in the SIEM
+- detects
+- can go further, with user behavior analytics and threat intelligence capacity
+- machine learning can be of great help
+- works 24/7
+- Log Ingestion: fetch all logs
+	- Agent/Forwarder: installed on endpoint, capture all important logs
+	- Syslog: protocol to collect data, from various systems
+	- Manual Upload: some SIEM allow to ingest offline data for quick analysis
+	- Port-Forwarding: forward data on listening ports
+- SOC Analysts use SIEM but stay responsible for:
+	- identify false positives, tune rules to reduce noise
+	- identity blind spots on infra anxd cover them
+- 

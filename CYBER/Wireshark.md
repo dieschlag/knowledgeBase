@@ -1,0 +1,17 @@
+- colour packets
+- can merge pcap
+- can mark packets => appear black
+- can add comments on packets
+- can export selected packets
+- can extract files from packets (transmitted packets over the network)
+- color depending on type of pakets
+	- Bule: Information on usual flow
+	- Cyan: notable events, app error codes
+	- Yellow: Warn: unusual error codes or problem statements
+	- Red: Error: Malformed packets
+- can apply filters from top bar
+- can colorize on the go from menu + select protocol to which color is applied
+- can prepare as a filter on the go
+- can reconstruct stream as if received by application
+- 
+  

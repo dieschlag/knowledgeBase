@@ -1,0 +1,12 @@
+- comes down to 4 main principles:
+	- Preperation
+	- identification
+	- mitigations
+	- Review
+- Effective threat model includes:
+	- [[Threat Intelligence]]
+	- Asset identification
+	- Mitigation capabilities
+	- Risk assessment
+- Frameworks available
+	- [[STRIDE]]

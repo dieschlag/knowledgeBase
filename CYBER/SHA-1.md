@@ -1,0 +1,3 @@
+- 160-bit hash (40 digit hexadecimal number)
+- considered insecure
+- 

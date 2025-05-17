@@ -1,0 +1,4 @@
+- widely used
+- 128-bit hash
+- NOT secure
+- 

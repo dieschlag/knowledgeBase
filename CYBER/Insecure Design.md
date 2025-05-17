@@ -1,0 +1,2 @@
+-  refers to vuln inherent to app's architecture
+- Ex: ability to brute force easily, etc.

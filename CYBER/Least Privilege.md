@@ -1,0 +1,1 @@
+- users should be given the minimum amount of privileges with only those which are absolutely necessary for them to perform their duties

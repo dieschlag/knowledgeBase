@@ -1,0 +1,114 @@
+- communication made via ports
+	- 65535 ports
+	- NETBIOS: 139
+	- SMB: 445
+	- to scan: nmap
+- Switches:
+	- -sn: discover live hosts
+	- -sS: Syn Scan
+	- -sU: UDP Scan
+	- -sT: TCP connect scan
+	- -O: detect OS
+	- -sV: get service versions
+	- -v/-vv: verbose
+	- v\<number>: other way to add verbose
+	- -d\<integer>: debug mode with level
+	- -oA: save in three major formats
+	- -oG: save in grepable format
+	- -oN: normal output
+	- -oX: in xml
+	- -A: agressive mode
+	- -F: fast mode, scans 100 most common ports
+	- -T\<integer> (T1, T2, etc.): "timing" templates, increase scan speed
+		- number up => takes longer, because more stealth
+	- -p \<integer>: scan port
+	- -p \<integer>-\<integer>: scan range 
+	- -p-: scan all ports
+	- --script: launch scan script
+	- --script=\<category>: launch script of given cateory
+	- --script=\<script-name>
+	- --script-args script-name.arg1,script-name.arg2 
+	- --min-parallelism/max-parallelism: number of parallel probes used
+- TCP Connect Scans: -sT
+	- TCP Handshake: SYN => SYN + ACK => ACK
+	- if port closed: taget returns RST (reset flag)
+		- RFC 9293
+	- when firewall simply configured to drop packets, sender receives nothing
+	- configure firewall to nonetheless sends RST back
+```
+	iptables -I INPUT -p tcp --dport <port> -j REJECT --reject-with tcp-reset
+```
+- SYN Scan: -sS
+	- "Half-open"/stealth scans: SYN => SYN/ACK => RST
+		- some apps only log once the connection has been made
+		- idem for old intrusion detection systems
+		- faster
+		- require sudo
+		- can take down unstable services, issue when pentest on production
+		- default when running nmap with sudo permissions
+- UDP Scans: -sU
+	-  reminder: no handshake
+	- more difficult/slower to scan (~20 min for 1000 most common ports)
+	- if port open, should receive nothing => `open|filtered`
+		- but could be firewalled
+		- if no response, request sent a second time, marks it `open|filtered` and moves on
+		- if receives response: marked as `open`
+		- if port closed: receives a ICMP ping that port is unreachable
+	- generally used with `--top-ports <integer>` to scan the \<integer> most common ports
+		- also allows to send UDP packets with content more likely to receive a response
+		- instead: empty request, raw UDP packet
+- Scans with firewall evasion: many firewalls drop TCP packets with the SYN flag set/ICMP ping
+	- but modern systems are savvy
+	- Types of scans available:
+		- NULL scans: -sN
+			- TCP request with no flags set
+			- target responds with RST if closed
+			- expects no response if open
+		- FIN Scans: -sF: 
+			- TCP request with only `FIN` flag set
+			- expects RST if port closed
+			- expects no response if open
+		- Xmas scans: -sX
+			- sends malformed TCP request
+			- expects RST closed
+			- name: appearance of blinking xmas tree when packet viewed in wireshark
+			- expects no response if open
+		- -Pn: no ping before scanning, prevent firewall block
+			- takes longer (will verify port of unreachable hosts)
+		- -f: fragment packets, less likely to be detected
+		- --mtu \<number>: defines maximum transmission unit for packets
+			- must multiple of 8
+		- --scan-delay \<time>ms: adds delay between packets sent
+			- avoid time-based triggers
+		- --badsum: generate invalid checksum packets
+			- TCP/IP stack would drop it
+			- firewall may respond automatically => detects presence of firewall
+			- --data-length \<integer>: adds arbitrary amount of data at the end of packets  
+	- RFC 793: for malformed packets:
+		- RST if closed
+			- no response if open
+			- not always respected:
+				- Windows/Cisco devices: always respond with RST if packet malformed
+- ICMP Network Scanning: -sn (ping sweep)
+	- in black box assignment, need **map** of network
+	- accepts `-` range or CIDR (`\`) notation to specify network to scan
+- Nmap Scripting Engine (NSE):
+	- scripts written in Lua (language)
+	- categories:
+		- safe: not affect target
+		- intrusive: likely to affect target
+		- vuln: scan for vuln
+		- exploit: attempt to exploit vuln
+		- auth: attempt to bypasse auth
+		- brute: bruteforce credentials
+		- discovery: query running services to get more info
+	- list of scripts [here][https://nmap.org/]
+	- search for scripts:
+	- website
+		- stored in `/usr/share/nmap/scripts`
+		- `/usr/share/nmap/scripts/script.db`: db/formatted .txt of filenames + categories
+			- grep in it
+			- to search for categories `grep "category" file path`
+		- can use ls with templates: `ls path/*name*`
+	- if download a script (wget etc.), then `nmap --script-updatedb` to update script.db
+	- 

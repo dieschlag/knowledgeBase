@@ -1,0 +1,2 @@
+- measures time of packets to travel between two devices
+- to restrict the ttl of packets: -c \<number>

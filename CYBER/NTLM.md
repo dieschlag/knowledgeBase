@@ -1,0 +1,1 @@
+- NT: default hash format of Windows OS

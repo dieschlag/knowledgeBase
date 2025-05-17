@@ -1,0 +1,3 @@
+- GECOS: General Electric Comprehensive Operating System
+- stores general information about user, like full name, office number, tel number, etc.
+- 

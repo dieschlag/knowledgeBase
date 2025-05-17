@@ -1,0 +1,3 @@
+- most common: SHA-256
+	- 256 bits as 64 hecadecimal digit number
+	- 

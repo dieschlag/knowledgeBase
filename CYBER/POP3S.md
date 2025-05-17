@@ -1,0 +1,2 @@
+- POP3 over TLS
+- default port: 995

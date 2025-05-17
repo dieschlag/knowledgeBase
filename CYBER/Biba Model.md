@@ -1,0 +1,3 @@
+- Model to achieve integrity: 2 rules
+	- Simple Integrity Property: "no read down": higher subject cannot read lower integrity object
+	- Star Integrity Object: "no write up": lower integrity subject should not write to higher object

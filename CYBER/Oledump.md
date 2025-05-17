@@ -1,0 +1,6 @@
+- refers to oldump.py, python tool to analyze [[OLE-OLE2|OLE2]] files
+- detects if a VBA script can be embedded
+- Usage: 
+	- /path/oledump.py <file_name>
+	- (after first output) -s \<number>: look into actual data of element selected via chosen number
+	- --vbadecompress: used to decompress any VBA macros

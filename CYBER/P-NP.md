@@ -1,0 +1,2 @@
+- P: Polynomial time problems whose solution can be solved in polynomial time
+- NP: problems for which checking if something is the solution can be easy, but don't know if an algo exists that can find a solution

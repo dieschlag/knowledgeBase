@@ -1,0 +1,62 @@
+- msfconsole: launch console
+- use path/integer
+- show options/payloads/...
+- back
+- info
+- search
+- set element \integer\: faster set a payload/... after a search  
+- Modules: 
+	- set(g) rhosts/lhosts ip
+	- unset all
+	- exploit -z
+	- check: check if system vlun without exploiting
+- Sessions
+	- background: background session (or CTRL + Z)
+	- sessions: display existing sessions
+		- -i (integer): access sessions\[i]
+
+# Meterpreter
+
+- help
+- background: for sessions
+- exit: terminate session
+- guid: get guid
+- irb: interactive ruby shell
+- load: load extensions
+- migrate: migrate meterpreter to another process (with new pid)
+- run: execute meterpreter script/process
+- sessions
+- cd/ls/pwd/cat/rm
+- edit: for file
+- search: for files
+- upload: for files
+- download: for files
+- arp: display host arp
+- ifconfig
+- netstat
+- portfwd: forward local port to remote service
+- route: view/modify routing table
+- clearev: clear event logs
+- execute: execute command
+- getpid
+- getuid: user running as
+- kill
+- pkill: kill by name
+- ps
+- reboot
+- shell
+- shutdown
+- sysinfo
+- Useful commands for post exploit:
+	- idletime:  number seconds  the remote has been idle
+	- keyscan_dump: dumps keystroke buffer
+	- keyscan_start: start key capture
+	- keyscan_stop
+	- screenshare: wath remote deskto
+	- record_mic
+	- webcam_chat: start video chat
+	- webcap_list
+	- webcam_snap
+	- webcam_stream
+	- getsystem: attempts to elevate privilege
+	- hashdump: dump of the SAM database

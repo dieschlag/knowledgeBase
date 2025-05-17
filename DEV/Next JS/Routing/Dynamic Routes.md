@@ -1,0 +1,8 @@
+- segment wrapped in \[] => catch-all
+- segments are passed as `params` prop to layout, page, route, generateMetadata
+- `params` is a `Promise`, need to use await, async
+- `generateStaticParams`  generate static routes at build times
+	- caching, if different fetch of same info at build time, occurs only once
+- optional catch-all segments by using \[\[ ]]
+	- `app/shops/[[slug]]/page.js` matches `/app/shops` and `/app/shops/clothes`
+- 

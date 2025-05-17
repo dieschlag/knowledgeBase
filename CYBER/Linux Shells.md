@@ -1,0 +1,9 @@
+- /etc/shells: shows all available shells
+- $SHELL: var, contains currently used shell
+	- echo $SHELL
+- chsh -s /shell/to/path: change default shell
+- Shell exemples:
+	- Friendly Interactive Shell
+	- Z Shell
+- possiblity to have [[Linux Shell Scripting|scripts]]
+- 

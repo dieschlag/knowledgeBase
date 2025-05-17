@@ -1,0 +1,9 @@
+- to send emails
+- defines how a mail client talks with a mail server + how mail server talks with one another
+- Commands:
+	- HELO/EHLO: initiate SMTP session
+	- MAIL FROM: sender's email address
+	- RCPT TO: recipient's email address
+	- DATA: indicates the client will begin sending the content of the email message
+	- `.`: is sent on a line by itself, indicates end of message
+- default port: 25

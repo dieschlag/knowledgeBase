@@ -1,0 +1,5 @@
+- receive request and then and forward it to one of many servers
+- Algorithms to determine to whom send the request:
+	- round-robin: send to server in turn
+	- weighted: checks how many request is a server dealing with and send it to least busy
+- Ensure running correctly by performing health checks

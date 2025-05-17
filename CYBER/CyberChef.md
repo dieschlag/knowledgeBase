@@ -1,0 +1,9 @@
+- web app 
+- swiss army knife for data
+- Four areas:
+	- Operations
+	- Recipe
+	- input: to input data
+	- Output: result after recipe 
+- Operations Area: Applies specific conversion/calculation on data, can be chained in the Recipe Area
+- Recipe Area: arrange specific operations and defines params

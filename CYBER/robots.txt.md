@@ -1,0 +1,3 @@
+- document that tells search engines which pages they aren't allowed to show on their search engine results
+- can give information on pages we can try to access as penetration tester
+- 

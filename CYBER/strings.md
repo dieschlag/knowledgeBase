@@ -1,0 +1,4 @@
+- in Linux, used to extract substrings
+- strings \<filename>: extract ASCII
+- strings -e l \<filename>: extracts 16-bit little-endian strings
+- strings -e b \<filename>: extracts 16-bit big-endian strings

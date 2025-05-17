@@ -1,0 +1,7 @@
+- specialised Linux distro, provides sandbox env for dissecting malwares, includes many tools
+- Tools: 
+	- Volatility
+	- YARA
+	- Wireshark
+	- oledump
+	- INetSim

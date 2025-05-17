@@ -1,0 +1,2 @@
+- gives a list of every file the website owner wants to be listed on a search engine
+- can list old website pages/ones more difficult to navigate

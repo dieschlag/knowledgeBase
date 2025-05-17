@@ -1,0 +1,5 @@
+- PIM: Privileged Identity Management
+	- translate user's role within organisation into an access role 
+- PAM: Privileged Access Management
+	- management of the privileges a system's access role has
+	- actually includes more: password management, auditing policies, etc.

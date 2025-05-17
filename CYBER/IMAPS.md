@@ -1,0 +1,2 @@
+-  IMAP over TLS
+- default port: 993

@@ -1,0 +1,2 @@
+- can be used to know what framework is used, when the default favicon is not changed
+- [Database of framework icons](https://wiki.owasp.org/index.php/OWASP_favicon_database)

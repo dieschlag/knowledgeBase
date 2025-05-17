@@ -1,0 +1,11 @@
+- Verify Info:
+	- source
+	- evidence and reasoning
+	- objectivity
+	- corroboration and consistency
+- "blabla": searching for things with these exact words
+-  `site: domain.com`: specify domain name
+	- useful for subdomain enumeration
+- - blabla: omit results containing specific words
+- filetype: specify file type looking for
+- 

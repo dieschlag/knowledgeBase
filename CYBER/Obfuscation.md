@@ -1,0 +1,1 @@
+- turn JS code into non readable format for humans but that the browser can still execute

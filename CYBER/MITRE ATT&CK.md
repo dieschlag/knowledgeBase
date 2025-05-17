@@ -1,0 +1,4 @@
+- MITRE ATT&CK: MITRE Adversarial Attacks, Techniques and Common Knowledge
+- documents tactics and techniques employed by threat actors
+- Format `ATT&CK Tactic::ATT&CK Technique::Technique Identifier`
+	- `ATT&CK Tactic::ATT&CK Technique::ATT&CK Sub-Technique::Technique Identifier[.]Sub-technique Identifier`

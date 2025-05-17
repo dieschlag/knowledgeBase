@@ -1,0 +1,19 @@
+		
+- Search
+	- Vuln and Exploits
+		- ExploitDB: download exploits
+			- Kali: searchsploit search ExploitDB
+		- NVD: keeps track of CVEs
+			- format: CVE-YEAR-IDNUMBER
+		- CVE Mitre 
+		- GitHub
+	- Devices/soft:
+		- Shodan: search **devices** connected to the internet
+			- types and versions of servers, IoT, ...
+		- Censys: Internet-connected hosts (websites, certificates, ...)
+- Virus-Scanning: VirusTotal
+- Metadefender Cloud - OPSWAT: check file hashes
+- Database Leaks: Have I Been Pawned 
+- Doc: Linux Man pages
+- Social Media to find info on target
+- 

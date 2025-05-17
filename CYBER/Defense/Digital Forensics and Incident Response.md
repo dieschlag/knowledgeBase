@@ -1,0 +1,64 @@
+
+- Digital Forensics: investigate crime, establish facts
+	- computer forensics
+	- intellectual property theft
+	- cyber espionage
+	- possession of unauthorized content
+		- File system: digital forensics image (low-level copy) of system storage
+		- System Memory: access malicious program in memory (not saved on disk)
+		- System logs
+		- Network logs
+	- Steps: 
+		- Collection: identify devices from which data can be collected, ensure original data integrity, 
+		- Examination: filter amount of data collected
+		- Analysis: critical phase, analyze data, correlate it with other piece of evidence
+		- reporting: detailed report, contains recommendations, presented to law enforcement, executive summaries so that everyone can understand
+	- Methodologies:
+		- Computer Forensics: most common device 
+		- Mobile Forensics: extract call records, text messages, etc.
+		- Network Forensics: investigation beyond individual devices, includes whole network, majority of evidence in network logs
+		- Database forensics: checks for intrusions in databases and data modifications
+		- Cloud forensics: little evidence on cloud infrastructures
+		- Email forensics: most common communication method, emails investigate to check if phishing or fraudulent campaigns
+	- Evidence Acquisition
+		- Proper Authorization: evidence collected prior approval may be considered inadmissible in court
+		- Chain of Custody: contains all details of evidence:
+			- Description of the evidence (name, type).
+			- Name of individuals who collected the evidence.
+			- Date and time of evidence collection.
+			- Storage location of each piece of evidence.
+			- Access times and the individual record who accessed the evidence.
+		- Use of write blockers: allows hard drive to really remain in the state it was, otherwise background tasks may change timestamps, compromising data
+	- Windows Forensics:
+		- Disk Image: all data on storage device, data non-volatile, always there after a restart
+		- Memory Image: inside RAM, volatile
+		- Tools
+			- FTK Imager: to take disk images, can also analyse
+			- Autopsy: open-source, extensive analysis of an image, includes keyboard search, deleted files, extension mismatch
+			- Dumpit: create memory image
+			- Volatility: open-source to analyze memory images, can support diff OS
+
+
+- incident Response
+	- Incident = true positives alerts
+	- Incident Response carried out by CSIRT
+		- CSIRT: Computer Security Incident Response Team
+	- Types of incidents
+		- Malware infections
+		- Security Breaches: unauthorized person gets access to ressources
+		- Data Leaks: steals confidential information
+		- Insider Attacks: from within an organization
+		- Denial of Service Attacks: flood systems with false requests, exhaust request handlers, data unavailable to legitimate users
+	- SANS and NIST: organizations contributing to cyber security
+	- Steps from SANS Incident Response Framework:
+		- Preparation: develop incident response teams, proper incident response plan, deploy necessary security solutions to combat incidents
+		- Identification: look for abnormal behavior, monitor abnormal events
+		- Containment: minimize impact of incident, isolate victim, disable compromised user accounts
+		- Eradication: removing threat, make environment clean
+		- Recovery: recover affected systems from backup/rebuild them, tests 
+		- Lessons Learned: document gaps between detection and analysis of the incident to help process in future
+	- SANS ans NIST frameworks
+		- for each process, document listing all procedures
+		- Incident Reponse Plan: formal incident response document, validated by senior management and after incident has been completed
+![[Pasted image 20250312002544.png]]
+- Step-by-step instructions to deal with incident: playbooks

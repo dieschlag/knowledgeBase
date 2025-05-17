@@ -1,0 +1,18 @@
+- first: triage specialist: monitoring + triaging event logs/alerts
+- develop IDS (Intrusion Detection System)
+- participate in SOC working groups
+- create tickets and escalate to tier 2 or team lead
+- SOC: Security Operations Center: investigate, monitor, prevent, respond threats, 
+	- Preparaton: stay informed, secutity roadmap, scenarios
+		- TTP: Threat, techniques and procedures
+		- maintenance
+		- patching
+		- CISA's alerts on APT 40
+			- Cybersecurity & Infrastructure Security Agency
+			- APT 40: Chinese Advanced Persistent Threat
+	- Monitoring and Investigation
+		- SIEM: Security Information and event Management
+		- EDR: Endpoint Detection and Response
+			- to monitor suspicious activity
+			- level of alerts
+- Check if IP if ip is suspicious online

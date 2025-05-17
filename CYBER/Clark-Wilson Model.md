@@ -1,0 +1,5 @@
+- Model to achieve integrity: 
+- Constrained Data Item (CDI): data type whose integrity we want to preserve
+- Unconstrained Data Item: all data types beyond CDI (user/system input)
+- Transformation Procedures: programmed operations, read and write to maintain interity of CDI
+- Integrity Verification Procedures: check and ensure validity of CDI

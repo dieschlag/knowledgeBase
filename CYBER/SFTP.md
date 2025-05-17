@@ -1,0 +1,6 @@
+- SFTP: SSH File Transfer Protocol, part of SSH protocl suite
+- Commands
+	-  `sftp username@hostname`
+	- get filename: download
+	- put filename: upload
+- share same port as SSH: 22

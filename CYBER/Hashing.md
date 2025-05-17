@@ -1,0 +1,16 @@
+- Different from encryption
+- no key and meant to be impossible, or computationally impossible, to go from output to input  
+- [[MD5]]
+- [[SHA-1]]
+- [[SHA-2]]
+- not secure if two files have same hash
+- generally outuput is encoded after hashing, generally in hexa format
+- Store passwords as hash, not as plaintext
+- Hash Collision: two diff inputs give same output
+	- consequence of the pigeonhole effect, if you have more elements than containers, some containers must contain more than one element
+- Rainbow tables: Tables matching plaintext to hash output, used for password cracking
+	- To prevent rainbow table attacks: use salt before hashing, random value added to beginning or end of password before hashing, one salt per user
+- Hashing can be used for integrity checking, to check if hash of file downloaded matches expected file hash
+- [[HMAC]]s
+- Dictionnary Attack can be done with [[John The Ripper]]
+- 

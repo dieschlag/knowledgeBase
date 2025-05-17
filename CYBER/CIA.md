@@ -1,0 +1,8 @@
+- Security triad:
+	- Confidentiality: protection of data from unauthorized access and misuse
+	- integrity: inormation is kept accurate and consistant, unless authorized changes made
+	- Availability: for data to be useful, must be accessible to user
+- Can go further: 
+	- Authenticity
+	- Nonrepudiation: ensure source is who they say they are
+- 

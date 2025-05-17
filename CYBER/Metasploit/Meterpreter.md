@@ -1,0 +1,11 @@
+- runs in memory to avoid detection by antivirus, but can be detected by most antivirus
+- uses encrypted comm with the server
+- many versions to adapt to target system
+- stealth: not meterpreter.exe but random_name.exe
+- Single (inline) or staged
+- Things to look to select flavor:
+	- target OS
+	- components available on target (python, PHP, etc.)
+	- network conditions: allow raw TCP connection, only HTTPS, IPv6 not monitored ?
+- metasploit payload with many valuable components
+- [[Metasploit Commands#Meterpreter|List of commands]]

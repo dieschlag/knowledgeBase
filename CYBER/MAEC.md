@@ -1,0 +1,15 @@
+- MAEC: Malware Attribute Enumeration and Characterization
+- language to encode and communicate complex details concerning malware
+- Common MEAC Value
+	- Downloader: downloads and executes other malware, for complexe malwars
+		- fetch malware/ressources from net
+		- pull updates
+		- execute secondary stages
+		- retrieve config files
+	- Launcher: behavior similar to malware
+		- drop additional malware
+		- activate persistance mechanisms
+		- connect to command and control servers (C2)
+		- execute functions
+- Also is MAEC Category
+- Is used to identify purpose of file in attacker playbook

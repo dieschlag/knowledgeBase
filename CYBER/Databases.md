@@ -1,0 +1,11 @@
+- two types: relational (SQL) or non-relational (NoSQL)
+- Relational databases: 
+	- structured data
+	- used when data received is in reliable format
+	- data stored in tables
+	- columns
+	- primary and foreign keys
+- Controlled using a DBMS (Database Management System), for the user to interact with the db
+	- rely on SQL
+	- Ex: [[SQL]]
+

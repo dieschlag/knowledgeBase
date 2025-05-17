@@ -1,0 +1,8 @@
+- STRIDE: Spoofing Identity, Tampering with data, Repudiation Threats, Information dislosure, Denial of Service, Elevation of privileges
+- authored by two Microsoft security researchers in 1999
+- Spoofing: malicious party identifying as another. Access Keys allow to remediate this threat
+- Tampering: anti-tampering measures help to provide integrity to data
+- Repudiation: dictates the use of services like logging of activity or application to track
+- Information Disclosure: Only show relevant information to appropriate user
+- Denial of Service: Measures in place so that the abuse of app/service won't shut the whole system down
+- Elevation of Privilege: Worst-case scenario, often leads to further exploitationp

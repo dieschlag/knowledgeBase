@@ -1,0 +1,4 @@
+- storage service by Amazon to store files and static assets
+- can be defined to be accessible publicly or not, sometimes not configured correctly
+- Format: http(s)://{name}.s3.amazonaws.com
+- can be used to automate access from the website name

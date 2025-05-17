@@ -1,0 +1,20 @@
+- MBC: Malware Behavior Catalog
+- catalog of malware objectives and behaviors
+- support labelling and similarity analysis, standardized reporting 
+- can link to ATT&CK methods, but not under same names, complements ATT&CK page, not just duplicate/reference => have to look at both
+- Formats:
+	- **OBJECTIVE**::**Behavior**::**Method**[**Identifier**]
+		- ex: ANTI-STATIC ANALYSIS::Executable Code Obfuscation::Argument Obfuscation [B0032.020]
+	- **OBJECTIVE**::**Behavior**::[**Identifier**]
+		- COMMUNICATION::HTTP Communication:: [C0002]
+- Objective: based on ATT&CK tactics in context of malware behavior, used to carachterize malware
+	- ex: Anti-Behavioral Analysis: attemps to avoid detection by hindering analysis tools like debuggers
+- Micro-objective: associated with micro-behaviors, action not necessarily malicious but serve various objectives
+	- ex: PROCESS: behaviors related to processes (creating, etc.)
+- MBC behaviors: defines behavior of MBC
+	- ex: ANTI-BEHAVIORAL ANALSYS: checks if running in a virtual environment by exaiming various users and system artifacts
+- Micro-behavior:
+	- "low lever behaviors": actions not necessarily malicious but serve various objectives (like creation of TCP sockets, etc.), but does not mean it is harmless
+	- ex: DATA: is able to encode data using base64
+- Methods: tied to behaviors
+	- ex: executable code obfuscation: simple number of string arguments to API calls

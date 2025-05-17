@@ -1,0 +1,2 @@
+- happens when configuration of app is bad, independently of app version
+- Ex: exposure of debug interfaces

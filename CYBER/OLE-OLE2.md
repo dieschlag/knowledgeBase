@@ -1,0 +1,3 @@
+- OLE: Object Linking and Embedding 
+	- technology developed by Microsoft
+- OLE2: used to store multiple data types: documents, spreadsheets, presentations, into single file

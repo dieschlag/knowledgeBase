@@ -1,0 +1,5 @@
+- INetSim: Internet Services Simulation Suite: simulate a virtual network
+- can change dns default ip in `/etc/inetsim/inetsim.conf`
+- start tool: `sudo inetsim`
+- once finished, report saved in `/var/log/inetsim/report`
+	- will contain exchanged information in fake network

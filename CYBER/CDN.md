@@ -1,0 +1,4 @@
+- Hosts static files from website, host them across thousands of servers all over the world
+- Network of servers distributed across the world
+- When user request one of the files, CDN checks where nearest server is instead of sending request to other part of world
+- 

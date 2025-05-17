@@ -1,0 +1,24 @@
+- every user action should be logged
+- risk and responsibilities can be determined
+- analyse to prevent future attacks
+- Types of logs:
+	- System Logs: troubleshoot issues in OS
+	- Security Logs: help detect and investigate incidents
+	- Application Logs: interactive or non-interactive activity happening inside the app
+	- Audit Logs: system changes and user events, useful for compliance requirements
+	- Network Logs: network ougoing and incoming traffic
+	- Access Logs: access to different ressources
+- Logs should include
+	- HTTP status codes
+	- Time stamps
+	- Usernames
+	- API endpoints/page locations
+	- IP addresses
+- Should make copies of them and secure them
+- Suspicious activity:
+	- multiple unauthorized attempts for a particular action
+	- request from suspicious addresses
+	- use of automated tools
+	- common payloads
+- Windows: Event Viewer: GUI to navigate logs
+	- each event has an id

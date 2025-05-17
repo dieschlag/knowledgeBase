@@ -1,0 +1,52 @@
+- System Configuration (utility MSConfig): help diagnose startup issues
+	- needs local admin rights
+	- General tab: define what type of services to launch at boot
+	- Boot tab: define startup settings
+	- Services: all services running or stopped
+		- special type of app running bg
+	- UAC: can turn off UAC
+	- Tools:
+		- Computer Management:
+			- System Tools: 
+				- Task Manager: define common tasks: run app, script, etc.
+				- Event Viewer: view events occurred on computer
+					- Error
+					- Warning
+					- Information
+					- Success Audit
+					- Failure Audit
+					- Standard Logs: In Windows Logs
+			- Shared Folders: list of shares and folders shared
+				- Sessions: see users currently connected to the shares
+			- Local Users and Groups: [[Windows Fudamentals I]]
+			- Performance: Performance Monitor
+		- Storage
+			- Windows Server Backup
+			- Disk Management
+				- Setup partitions
+				- Change drive letter
+		- Services And Applications
+			- view properties for the services
+		- System Information
+			- System Summary
+				- Hardware Resources
+				- Components
+				- Software Environment
+					- soft baked in the OS/soft installed
+					- can see Env vars, Network Connections
+		- Ressource Monitor
+			- CPU
+			- Disk
+			- Network
+			- Memory
+		- cmd
+			- whoami
+			- hostname
+			- ipconfig
+				- /?: help manual
+			- cls: clear command prompt screen
+			- netstat: current TCP/IP connections
+				-  net help: manual
+				- net help user: help manual for net user
+			- Windows Registry: central hierarchical database to configure system for users/apps/hardware devices
+			- 

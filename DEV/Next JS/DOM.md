@@ -1,0 +1,3 @@
+- DOM - Document Object Model
+- treats HTML or XML as a tree structure
+- node = object representing part of a document

@@ -1,0 +1,21 @@
+- to conduct web application testing
+- industry standard tool for assessments of mobile/web apps
+- Proxy
+	- Intercept is on/off
+	- in settings: proxy does not intercept server responses unless explicitly requested
+	- [Foxy Proxy browser extension][https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-basic/]
+	- Burp Suite Browser
+		- `Settings -> Tools -> Burp's browser` => `Allow Burp's browser to run without a sandbox`
+- Repeater
+- Intruder
+- Decoder
+- Comparer
+- Sequencer
+- Target tab
+- Site map: shows web app in a tree structure
+- Issue definitions: can scan for a list of vulnerabilities
+- Scope settings: control target scope
+	- Right click + add to scope
+- Proxy HTTPS: need to download CA ceertificate of website
+	- import in Firefox by typing `about:preferences` in search bar
+	- set trust for certificate
