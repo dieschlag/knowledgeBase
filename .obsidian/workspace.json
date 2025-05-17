@@ -13,15 +13,128 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CYBER/ARP.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ARP"
+              "title": "README"
+            }
+          },
+          {
+            "id": "4d5a61a4cd5d49dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DEV/SOLID Principle/SOLID Principle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID Principle"
+            }
+          },
+          {
+            "id": "34b4c8674f5d8018",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DEV/SOLID Principle/Open Closed Principle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Open Closed Principle"
+            }
+          },
+          {
+            "id": "9394260560eaaa69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DEV/SOLID Principle/Single Responsibility Principle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Single Responsibility Principle"
+            }
+          },
+          {
+            "id": "806eea988d96476a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DEV/SOLID Principle/Open Closed Principle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Open Closed Principle"
+            }
+          },
+          {
+            "id": "48574ab750631a63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DEV/SOLID Principle/Open Closed Principle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Open Closed Principle"
+            }
+          },
+          {
+            "id": "f89c342471486551",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DEV/SOLID Principle/SOLID Principle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOLID Principle"
+            }
+          },
+          {
+            "id": "260189ba0532dc4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "List of useful DEV ressources.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "List of useful DEV ressources"
+            }
+          },
+          {
+            "id": "c05561d6b5c75cb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DEV/SOLID Principle/Single Responsibility Principle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Single Responsibility Principle"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -168,8 +281,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36f38d47a6af8469",
+  "active": "260189ba0532dc4b",
   "lastOpenFiles": [
+    "DEV/SOLID Principle/SOLID Principle.md",
+    "List of useful DEV ressources.md",
+    "DEV/Design Patterns/Design Patterns.md",
+    "DEV/Design Patterns/Strategy Design Pattern.md",
+    "DEV/Design Patterns",
+    "Utils/Attachements/Pasted image 20250517104843.png",
+    "DEV/SOLID Principle/Open Closed Principle.md",
+    "DEV/SOLID Principle/Single Responsibility Principle.md",
+    "README.md",
+    "DEV/SOLID Principle",
+    "Open/Closed Principle.md",
+    "Open",
+    "CYBER/ARP.md",
     "Utils",
     "Utils/Attachements/Pasted image 20250228143311.png",
     "CYBER/Burp Suite.md",
@@ -199,22 +325,9 @@
     "CYBER/Bell-LaPadula Model.md",
     "CYBER/Threat Modelling.md",
     "CYBER/SSRF.md",
-    "Utils/Attachements/Pasted image 20250311033913.png",
-    "CYBER/File Inclusion.md",
-    "CYBER/Linux/Linux commands.md",
-    "CYBER/Attack/Broken Access Control.md",
-    "CYBER/Reverse Shell.md",
-    "CYBER/Bind Shell.md",
-    "CYBER/IDOR.md",
-    "CYBER/OS/Windows/System Configuration.md",
-    "CYBER/ffuf.md",
     "CYBER/Attack/Pentesting",
     "CYBER/OS/Windows",
     "CYBER/TryHackMe Follow-up",
-    "Protocols",
-    "CYBER/Attack",
-    "CYBER/OS",
-    "CYBER/Defense",
-    "CYBER/Protocols-Internet"
+    "Protocols"
   ]
 }

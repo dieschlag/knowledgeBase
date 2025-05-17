@@ -1,0 +1,1 @@
+Refers to a general, reusable solution found in software engineering, can be seen as best practices to use when solving a specific problem

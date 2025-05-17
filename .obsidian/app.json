@@ -1,5 +1,9 @@
 {
   "newFileLocation": "root",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Utils/Attachements"
+  "attachmentFolderPath": "Utils/Attachements",
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "Utils/Attachements/"
+  ]
 }
