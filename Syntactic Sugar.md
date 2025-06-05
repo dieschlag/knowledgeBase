@@ -1,0 +1,1 @@
+Refers to certain language features in programming that make the code easier to read

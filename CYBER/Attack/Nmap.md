@@ -10,6 +10,7 @@
 	- -sT: TCP connect scan
 	- -O: detect OS
 	- -sV: get service versions
+	- -sL: List Scan: simply lists hosts of the network, without sending packets to the target hosts. It uses reverse-DNS resolution on the hosts to know their name.
 	- -v/-vv: verbose
 	- v\<number>: other way to add verbose
 	- -d\<integer>: debug mode with level
@@ -57,6 +58,7 @@
 	- generally used with `--top-ports <integer>` to scan the \<integer> most common ports
 		- also allows to send UDP packets with content more likely to receive a response
 		- instead: empty request, raw UDP packet
+
 - Scans with firewall evasion: many firewalls drop TCP packets with the SYN flag set/ICMP ping
 	- but modern systems are savvy
 	- Types of scans available:
@@ -111,4 +113,3 @@
 			- to search for categories `grep "category" file path`
 		- can use ls with templates: `ls path/*name*`
 	- if download a script (wget etc.), then `nmap --script-updatedb` to update script.db
-	- 

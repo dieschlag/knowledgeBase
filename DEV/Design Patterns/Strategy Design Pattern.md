@@ -23,3 +23,4 @@ Defines concrete algorithms to perform tasks defined in Strategy Interface. They
 
 ### Client
 
+Creates an instance of a desired concrete strategy, chosen based on a set of requirements known by the client, then transmits the strategy to the context to execute it 

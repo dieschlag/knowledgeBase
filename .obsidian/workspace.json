@@ -4,137 +4,91 @@
     "type": "split",
     "children": [
       {
-        "id": "6424a302e4700fce",
+        "id": "fe8dd66c30d37c06",
         "type": "tabs",
         "children": [
           {
-            "id": "17e559889c47d7df",
+            "id": "344ca1145b0b3cd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "MS Windows Command Prompt Basic Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "MS Windows Command Prompt Basic Commands"
             }
           },
           {
-            "id": "4d5a61a4cd5d49dc",
+            "id": "c7b68de95597cf22",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DEV/SOLID Principle/SOLID Principle.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SOLID Principle"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "34b4c8674f5d8018",
+            "id": "ae0949dfcf983d79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DEV/SOLID Principle/Open Closed Principle.md",
+                "file": "CYBER/OS/Windows/System Configuration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Open Closed Principle"
+              "title": "System Configuration"
             }
           },
           {
-            "id": "9394260560eaaa69",
+            "id": "790f37f7905a8dd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DEV/SOLID Principle/Single Responsibility Principle.md",
+                "file": "Linux Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Single Responsibility Principle"
+              "title": "Linux Basics"
             }
           },
           {
-            "id": "806eea988d96476a",
+            "id": "7a38e8efb6def445",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DEV/SOLID Principle/Open Closed Principle.md",
+                "file": "CYBER/Windows Powershell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Open Closed Principle"
+              "title": "Windows Powershell"
             }
           },
           {
-            "id": "48574ab750631a63",
+            "id": "565db9880260a8c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DEV/SOLID Principle/Open Closed Principle.md",
+                "file": "CYBER/OS/Windows/Windows Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Open Closed Principle"
-            }
-          },
-          {
-            "id": "f89c342471486551",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DEV/SOLID Principle/SOLID Principle.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SOLID Principle"
-            }
-          },
-          {
-            "id": "260189ba0532dc4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "List of useful DEV ressources.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "List of useful DEV ressources"
-            }
-          },
-          {
-            "id": "c05561d6b5c75cb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DEV/SOLID Principle/Single Responsibility Principle.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Single Responsibility Principle"
+              "title": "Windows Basics"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -166,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "curl",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -281,50 +235,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "260189ba0532dc4b",
+  "active": "7a38e8efb6def445",
   "lastOpenFiles": [
-    "DEV/SOLID Principle/SOLID Principle.md",
-    "List of useful DEV ressources.md",
-    "DEV/Design Patterns/Design Patterns.md",
-    "DEV/Design Patterns/Strategy Design Pattern.md",
-    "DEV/Design Patterns",
-    "Utils/Attachements/Pasted image 20250517104843.png",
-    "DEV/SOLID Principle/Open Closed Principle.md",
-    "DEV/SOLID Principle/Single Responsibility Principle.md",
-    "README.md",
-    "DEV/SOLID Principle",
-    "Open/Closed Principle.md",
-    "Open",
+    "CYBER/OS/Windows/Windows Basics.md",
+    "Linux Basics.md",
+    "Linux Terminal Basic Commands.md",
+    "CYBER/Linux Shells.md",
+    "CYBER/OS/Windows/System Configuration.md",
+    "Windows Fudamentals I.md",
+    "MS Windows Command Prompt Basic Commands.md",
+    "CYBER/Windows Commands.md",
+    "TELNET.md",
+    "CYBER/DOM.md",
+    "Active Directory.md",
+    "Utils/Attachements/Pasted image 20250605151818.png",
+    "Utils/Attachements/Pasted image 20250605151610.png",
+    "Utils/Attachements/Pasted image 20250605151602.png",
+    "Utils/Attachements/Pasted image 20250605151108.png",
+    "Utils/Attachements/Pasted image 20250605143126.png",
+    "Utils/Attachements/Pasted image 20250605143052.png",
+    "Utils/Attachements/Pasted image 20250605141235.png",
+    "Utils/Attachements/Pasted image 20250605140705.png",
+    "Unit Testing.md",
+    "MSSQL.md",
+    "IIS.md",
+    "Docker.md",
+    "Utils/Attachements/Pasted image 20250601180022.png",
+    "Utils/Attachements/Pasted image 20250601175251.png",
+    "Container Runtime.md",
+    "Containers.md",
+    "Virtual Machine.md",
+    "Hypervisor.md",
+    "Microservices Architecture.md",
+    "Monolith Architecture.md",
+    "Business Logic.md",
     "CYBER/ARP.md",
+    "CYBER/Protocols-Internet/Ping.md",
+    "CYBER/Protocols-Internet/ICMP.md",
+    "CYBER/Protocols-Internet/OSI Model.md",
+    "DEV/Design Patterns",
+    "DEV/SOLID Principle",
+    "Open",
     "Utils",
-    "Utils/Attachements/Pasted image 20250228143311.png",
-    "CYBER/Burp Suite.md",
     "CYBER",
     "DEV",
-    "BiKay/Follow-Up.md",
-    "CYBER/Command Injection.md",
-    "CYBER/Injection.md",
-    "CYBER/SQL Injection.md",
-    "CYBER/SQL.md",
-    "CYBER/SQLMap.md",
-    "CYBER/Databases.md",
-    "CYBER/TryHackMe Follow-up/Practice Rooms.md",
-    "CYBER/TryHackMe Follow-up/Rooms Follow-up.md",
-    "Utils/Attachements/Pasted image 20250420113640.png",
-    "Utils/Attachements/Pasted image 20250420113551.png",
-    "Utils/Attachements/Pasted image 20250420112540.png",
-    "Utils/Attachements/Pasted image 20250420112516.png",
-    "Utils/Attachements/Pasted image 20250420112453.png",
-    "CYBER/Windows Commands.md",
-    "CYBER/Cross-Site Scripting.md",
-    "CYBER/DOM.md",
-    "Utils/Attachements/Pasted image 20250407183812.png",
-    "CYBER/TLS.md",
-    "Utils/Attachements/Pasted image 20250407183330.png",
-    "Utils/Attachements/Pasted image 20250407183010.png",
-    "CYBER/Bell-LaPadula Model.md",
-    "CYBER/Threat Modelling.md",
-    "CYBER/SSRF.md",
     "CYBER/Attack/Pentesting",
     "CYBER/OS/Windows",
     "CYBER/TryHackMe Follow-up",

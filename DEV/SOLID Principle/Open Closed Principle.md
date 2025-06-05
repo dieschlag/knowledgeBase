@@ -13,4 +13,4 @@ Things to consider to implement open/closed principle:
 - use abstraction: define abstract classes/interfaces to represent common behaviors
 - polymorphism: allows different implementations to be used interchangeably
 - avoid tight coupling: design classes to be loosely coupled
-- follow [[Design Patterns|design patterns]]: use Strategy, Template Method, Visitor
+- follow [[Design Patterns|design patterns]]: use [[Strategy Design Pattern|Strategy]], [[Template Method|Templates]], [[Visitor]] design patterns

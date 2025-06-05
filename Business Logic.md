@@ -1,0 +1,1 @@
+Custom rules or algorithms that handle the exchange of information between a database and a user interface. It defines how data can be created, stored and changed. 
