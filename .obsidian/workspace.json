@@ -4,91 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fe8dd66c30d37c06",
+        "id": "4adeeb3ce4a88c36",
         "type": "tabs",
         "children": [
           {
-            "id": "344ca1145b0b3cd7",
+            "id": "fd4c81db79dcb085",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MS Windows Command Prompt Basic Commands.md",
+                "file": "New version/Cloud Computing/Deployment example of an app on Kubernetes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MS Windows Command Prompt Basic Commands"
-            }
-          },
-          {
-            "id": "c7b68de95597cf22",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "ae0949dfcf983d79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CYBER/OS/Windows/System Configuration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "System Configuration"
-            }
-          },
-          {
-            "id": "790f37f7905a8dd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux Basics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux Basics"
-            }
-          },
-          {
-            "id": "7a38e8efb6def445",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CYBER/Windows Powershell.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows Powershell"
-            }
-          },
-          {
-            "id": "565db9880260a8c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CYBER/OS/Windows/Windows Basics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows Basics"
+              "title": "Deployment example of an app on Kubernetes"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 200
   },
   "right": {
     "id": "86d3a60534a7d88e",
@@ -235,53 +168,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a38e8efb6def445",
+  "active": "36f38d47a6af8469",
   "lastOpenFiles": [
-    "CYBER/OS/Windows/Windows Basics.md",
-    "Linux Basics.md",
-    "Linux Terminal Basic Commands.md",
-    "CYBER/Linux Shells.md",
-    "CYBER/OS/Windows/System Configuration.md",
-    "Windows Fudamentals I.md",
-    "MS Windows Command Prompt Basic Commands.md",
-    "CYBER/Windows Commands.md",
-    "TELNET.md",
-    "CYBER/DOM.md",
-    "Active Directory.md",
-    "Utils/Attachements/Pasted image 20250605151818.png",
-    "Utils/Attachements/Pasted image 20250605151610.png",
-    "Utils/Attachements/Pasted image 20250605151602.png",
-    "Utils/Attachements/Pasted image 20250605151108.png",
-    "Utils/Attachements/Pasted image 20250605143126.png",
-    "Utils/Attachements/Pasted image 20250605143052.png",
-    "Utils/Attachements/Pasted image 20250605141235.png",
-    "Utils/Attachements/Pasted image 20250605140705.png",
-    "Unit Testing.md",
-    "MSSQL.md",
-    "IIS.md",
-    "Docker.md",
-    "Utils/Attachements/Pasted image 20250601180022.png",
-    "Utils/Attachements/Pasted image 20250601175251.png",
-    "Container Runtime.md",
-    "Containers.md",
-    "Virtual Machine.md",
-    "Hypervisor.md",
-    "Microservices Architecture.md",
-    "Monolith Architecture.md",
-    "Business Logic.md",
-    "CYBER/ARP.md",
-    "CYBER/Protocols-Internet/Ping.md",
-    "CYBER/Protocols-Internet/ICMP.md",
-    "CYBER/Protocols-Internet/OSI Model.md",
-    "DEV/Design Patterns",
-    "DEV/SOLID Principle",
-    "Open",
-    "Utils",
-    "CYBER",
-    "DEV",
-    "CYBER/Attack/Pentesting",
-    "CYBER/OS/Windows",
-    "CYBER/TryHackMe Follow-up",
-    "Protocols"
+    "New version/Algorithmics",
+    "New version/Cloud Computing/Core concepts AKS.md",
+    "New version/Cloud Computing/Deployment example of an app on Kubernetes.md",
+    "New version/Linux/Shell commands.md",
+    "New version/Linux/Netcat.md",
+    "To sort/CYBER/Attack/Nmap.md",
+    "New version/Linux/AWK.md",
+    "To sort/CYBER/Reverse Shell.md",
+    "To sort/CYBER/Web Server.md",
+    "New version/TO CHECK.md",
+    "New version/Linux/Tcpdump.md",
+    "New version/Windows & AD/(TODO) Windows Defender Firewall.md",
+    "New version/Windows & AD/Windows Basics.md",
+    "New version/OSI concepts & protocols/UPD and TCP.md",
+    "New version/OSI concepts & protocols/TCP-IP Model.md",
+    "New version/OSI concepts & protocols/TLS.md",
+    "New version/Linux/Traceroute.md",
+    "New version/Linux/TELNET.md",
+    "New version/OSI concepts & protocols/SSH.md",
+    "New version/Defensive Cybersecurity/Snort.md",
+    "New version/Linux/Shell scripts.md",
+    "New version/OSI concepts & protocols/SMTP.md",
+    "New version/OSI concepts & protocols/Ping.md",
+    "New version/OSI concepts & protocols/OSI Model.md",
+    "New version/Windows & AD/(TODO) MSSQL.md",
+    "New version/Windows & AD/MS Windows Command Prompt Basic Commands.md",
+    "New version/Defensive Cybersecurity",
+    "New version/Cryptography",
+    "New version/Windows & AD",
+    "New version/OSI concepts & protocols",
+    "New version/Linux",
+    "Utils/Attachements/Pasted image 20250619120545.png",
+    "Utils/Attachements/Pasted image 20250619120531.png",
+    "Utils/Attachements/Pasted image 20250619102905.png",
+    "Utils/Attachements/Pasted image 20250618212053.png",
+    "Utils/Attachements/Pasted image 20250618212044.png",
+    "Utils/Attachements/Pasted image 20250615185758.png",
+    "Utils/Attachements/Pasted image 20250606164322.png",
+    "Utils/Attachements/Pasted image 20250606161445.png",
+    "Utils/Attachements/Pasted image 20250606161104.png",
+    "To sort",
+    "New version/Cloud Computing",
+    "New version",
+    "TCP",
+    "Utils/Attachements/Pasted image 20250606114903.png",
+    "To sort/DEV/Design Patterns"
   ]
 }

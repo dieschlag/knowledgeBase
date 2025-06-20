@@ -1,9 +1,0 @@
-- used for file transfer
-- Commands:
-	- USER
-	- PASS: for password
-	- RETR: to download file
-	- STOR: to upload
-	- LIST: list files
-- connect to machine: `ftp MACHINE_IP`
-- default port: 21

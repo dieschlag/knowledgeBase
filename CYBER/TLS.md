@@ -1,9 +1,0 @@
-- TLS: Transport Layer Security
-- need for secure communication, otherwise simply need a capture-packet tool to retrieve people's credentials
-- upgrade to SSL (Secure Socket Layer) 3.0
-- 2018: TLS 1.3
-- operates at transport layer
-- server admin creates Certificate Signing Request (CSR), submits it to Certificate Authority (CA), CA verifies CSR and issues digital certificate.
-	- is added to [[CT logs]]
-- once received, can be used to identify the server to others, who can conform the validity of the signature
-- Let's Encrypt: get certificate signed for free

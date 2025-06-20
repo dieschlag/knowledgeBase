@@ -1,13 +1,13 @@
 {
   "collapse-filter": false,
-  "search": "windows",
+  "search": "path:\"New version\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4632664490161416,
-  "close": false
+  "scale": 0.9044434668428922,
+  "close": true
 }

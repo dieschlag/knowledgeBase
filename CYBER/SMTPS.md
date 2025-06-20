@@ -1,2 +1,0 @@
-- Adding TLS to SMTP
-- default port: 465 + 587
